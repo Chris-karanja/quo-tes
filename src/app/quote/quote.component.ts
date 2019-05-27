@@ -16,7 +16,10 @@ export class QuoteComponent implements OnInit {
     new Quote(4, 'Two things are infinite: the universe and human stupidity; and Im not sure about the universe.', '-	Albert Einstein', 0, 0, new Date(2018,7,10)),
     new Quote(5, 'So many books, so little time.', '- Frank Zappa', 0, 0, new Date(2019,7,10))
   ]
-
+  
+  toogleDetails(index){
+    this.userQuotes[index].showMeta = !this.userQuotes[index].showMeta
+  }
   constructor() { }
 
   ngOnInit() {
