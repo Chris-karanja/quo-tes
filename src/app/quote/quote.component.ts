@@ -21,6 +21,12 @@ export class QuoteComponent implements OnInit {
     this.userQuotes[index].showMeta = !this.userQuotes[index].showMeta
   }
 
+  quoteDelete(isDeleted,index){
+    if (isDeleted){
+        this.userQuotes.splice(index,1);
+        }
+        }
+
   
   constructor() { }
 

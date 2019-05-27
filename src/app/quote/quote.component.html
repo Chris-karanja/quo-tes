@@ -12,5 +12,5 @@
   <br><br>
 
 
-  <app-quote-details *ngIf ="quote.showMeta"[quote]='quote'></app-quote-details>
-</div>
+  <app-quote-details *ngIf ="quote.showMeta"[quote]='quote'  (isDeleted)= 'quoteDelete($event,i)'></app-quote-details>
+</div> 
