@@ -10,11 +10,11 @@ export class QuoteComponent implements OnInit {
 
 
   userQuotes = [
-    new Quote(1, 'Quote number 1', 'kay', 0, 0, new Date(2019,7,10)),
-    new Quote(2, 'Quote number 2', 'kay', 0, 0, new Date(2019,7,10)),
-    new Quote(3, 'Quote number 3', 'kay', 0, 0, new Date(2019,7,10)),
-    new Quote(4, 'Quote number 4', 'kay', 0, 0, new Date(2019,7,10)),
-    new Quote(5, 'Quote number 5', 'kay', 0, 0, new Date(2019,7,10))
+    new Quote(1, 'Dont cry because its over, smile because it happened.', '-	Dr. Seuss', 0, 0, new Date(2019,7,10)),
+    new Quote(2, 'Start where you are. Use what you have. Do what you can.', '-	Arthur Ashe', 0, 0, new Date(2019,7,10)),
+    new Quote(3, 'A room without books is like a body without a soul.', '- Marcus Tullius Cicero', 0, 0, new Date(2019,7,10)),
+    new Quote(4, 'Two things are infinite: the universe and human stupidity; and Im not sure about the universe.', '-	Albert Einstein', 0, 0, new Date(2018,7,10)),
+    new Quote(5, 'So many books, so little time.', '- Frank Zappa', 0, 0, new Date(2019,7,10))
   ]
 
   constructor() { }
