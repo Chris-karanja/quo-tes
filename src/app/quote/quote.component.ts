@@ -20,6 +20,8 @@ export class QuoteComponent implements OnInit {
   toogleDetails(index){
     this.userQuotes[index].showMeta = !this.userQuotes[index].showMeta
   }
+
+  
   constructor() { }
 
   ngOnInit() {
