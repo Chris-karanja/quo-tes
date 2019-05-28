@@ -14,6 +14,13 @@ export class QuoteDetailsComponent implements OnInit {
   quoteDelete(deleted:boolean){
     this.isDeleted.emit(deleted);
   }
+  upVoteQuote(){
+    this.quote.upVote++;
+  }
+
+  downVoteQuote(){
+    this.quote.downVote++;
+  }
   
   constructor() { }
 
