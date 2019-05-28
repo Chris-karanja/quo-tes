@@ -1,6 +1,7 @@
 body{
-    background: url("../../assets/pig2.jpeg");
+    background: url("/../assets/feds.jpeg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .jumbotron{
