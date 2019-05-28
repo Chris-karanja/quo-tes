@@ -1,10 +1,17 @@
 <div class="container">
-  <h1>Quotes App</h1>
-
-
-  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-
-<hr>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Quotes App</a>
+            </div>
+        </div>
+      </nav>
+      
+      <div class="container">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+      
+      <hr><hr>
+      
 
 <div *ngFor = 'let quote of userQuotes, let i = index'>
   <h2>"{{quote.message}}"</h2>
